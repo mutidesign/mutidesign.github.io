@@ -1,1 +1,0 @@
-# mutidesign.github.io
