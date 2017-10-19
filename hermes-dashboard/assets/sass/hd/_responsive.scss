@@ -1,3 +1,14 @@
+@media (min-width: 1600px){
+    #chartPresentation{
+        bottom: -50px;
+        .ct-area{
+            fill:white;
+        }
+    }
+    .waves{
+        display: none;
+    }
+}
 @media (max-width: 1200px){
     .info{
         margin-right: 0;
@@ -375,6 +386,19 @@
 
     .text-blue{
         float: right;
+    }
+
+}
+
+@media (max-width: 576px){
+    .fixed-plugin{
+        .show{
+            .dropdown-menu{
+                width: 230px;
+                left: -70px !important;
+                top: 115px !important;
+            }
+        }
     }
 }
 @media (max-width: 480px){
